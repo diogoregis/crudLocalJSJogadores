@@ -1,6 +1,6 @@
 # CRUD Jogadores
 
-![](https://diogoregis.com.br/portifolio/img/crud_jogadores_js.png)
+![Tela Crud](https://diogoregis.com.br/portifolio/img/crud_jogadores_js.png)
 
 * ![](http://diogoregis.com.br/portifolio/img/html.png) HTML
 * ![](http://diogoregis.com.br/portifolio/img/css.png) CSS
