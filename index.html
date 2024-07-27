@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD de Jogadores</title>
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CRUD de Jogadores</h1>
+        <form id="playerForm">
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="position">Posição:</label>
+                <input type="text" id="position" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Idade:</label>
+                <input type="number" id="age" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="team">Time Atual:</label>
+                <input type="text" id="team" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Adicionar Jogador</button>
+        </form>
+        <hr>
+        <h2>Lista de Jogadores</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Posição</th>
+                    <th>Idade</th>
+                    <th>Time Atual</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="playersList">
+            </tbody>
+        </table>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
